@@ -347,7 +347,7 @@ tech:["C","Assembly","Game Modding"],
 demo:"https://www.tiktok.com/@irob_27/video/7581801434375621918?is_from_webapp=1&sender_device=pc&web_id=7616207936117573150"
 },
 {
-img:"currentprojects.jpg",
+img:"currentprojects.jpeg",
 title:"Current Projects",
 desc:"Developing experimental web applications and audio software that explore new ideas in user interaction, sound processing, and creative digital experiences.",
 tech:["React","Swift","Node.js"]
