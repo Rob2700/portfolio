@@ -426,13 +426,86 @@ viewport={{ once: true }}
 <div className="max-w-6xl mx-auto px-6">
 
 <h2 className="text-4xl font-bold text-center mb-16">
-Work Experience
+Education
 </h2>
 
 <div className="relative space-y-16">
 
 {/* timeline line */}
 <div className="absolute left-3 top-0 bottom-0 w-[2px] bg-cyan-400/30"></div>
+
+
+{/* EDUCATION - UHCL */}
+
+<div className="relative pl-14">
+
+<div className="absolute left-3 -translate-x-1/2 top-4 w-4 h-4 bg-cyan-400 rounded-full shadow-[0_0_10px_#22d3ee]"></div>
+
+<div className={`${card} p-6`}>
+
+<div className="flex justify-between items-start">
+
+<h3 className="text-xl font-bold font-semibold">
+B.S. Computer Information Systems
+</h3>
+
+<span className="text-sm text-gray-400">
+Expected Graduation: 2027
+</span>
+
+</div>
+
+<p className="text-cyan-400 mb-3">
+University of Houston – Clear Lake
+</p>
+
+<p className="text-gray-400">
+Pursuing a Bachelor's degree in Computer Information Systems with a focus on software development. 
+<br></br>
+<strong>Relevant coursework: </strong>
+<br></br>
+• Data Structures • Algorithims • Software Development • Object Oriented Programming
+</p>
+
+</div>
+
+</div>
+
+
+{/* EDUCATION - SAN JACINTO */}
+
+<div className="relative pl-14">
+
+<div className="absolute left-3 -translate-x-1/2 top-4 w-4 h-4 bg-cyan-400 rounded-full shadow-[0_0_10px_#22d3ee]"></div>
+
+<div className={`${card} p-6`}>
+
+<div className="flex justify-between items-start">
+
+<h3 className="text-xl font-semibold">
+Associate Degree
+</h3>
+
+<span className="text-sm text-gray-400">
+2016 – 2022
+</span>
+
+</div>
+
+<p className="text-cyan-400 mb-3">
+San Jacinto Community College
+</p>
+
+<p className="text-gray-400">
+Completed an associate degree before transferring to the University of Houston–Clear Lake to pursue a Bavhelor's in Computer Information Systems.
+</p>
+
+</div>
+
+</div>
+<h2 className="text-4xl font-bold text-center mb-16">
+Work Experience
+</h2>
 
 {/* T-Mobile */}
 
@@ -455,7 +528,7 @@ Mobile Expert / Key Holder
 </h3>
 
 <span className="text-sm text-gray-400">
-2019–Present
+2019 – Present
 </span>
 
 </div>
@@ -465,8 +538,7 @@ T-Mobile
 </p>
 
 <p className="text-gray-400">
-Handled customer inquiries, troubleshot mobile software issues,
-and assisted in managing store operations.
+Assited customers with mobile device troubleshooting, software issues and technical support while helping manage daily store operations and team responsibilities.
 </p>
 
 </motion.div>
@@ -495,18 +567,17 @@ Inventory Specialist
 </h3>
 
 <span className="text-sm text-gray-400">
-2018-2020
+2018 – 2020
 </span>
 
 </div>
 
 <p className="text-cyan-400 mb-3">
-Best Buy 
+Best Buy
 </p>
 
 <p className="text-gray-400">
-Maintained accurate tracking of technical inventory and gained
-deep knowledge of consumer electronics and hardware.
+Maintained accurate tracking of technical inventory and developed strong familiarity with consumer electronics and hardware systems.
 </p>
 
 </motion.div>
