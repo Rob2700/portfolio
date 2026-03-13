@@ -6,5 +6,4 @@ Personal developer portfolio built with React, TypeScript, Vite, Tailwind CSS, a
 The site highlights my projects, technical skills, and work experience as a Computer Information Systems student and software developer.
 
 ## Preview
-<<<<<<< HEAD
 ![Portfolio Preview](portfolio-preview.png)
