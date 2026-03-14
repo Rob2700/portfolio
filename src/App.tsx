@@ -443,16 +443,14 @@ Education
 
 <div className={`${card} p-6`}>
 
-<div className="flex justify-between items-start">
+<div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
+  <h3 className="text-xl font-semibold">
+    B.S. Computer Information Systems
+  </h3>
 
-<h3 className="text-xl font-bold font-semibold">
-B.S. Computer Information Systems
-</h3>
-
-<span className="text-sm text-gray-400">
-Expected Graduation: 2027
-</span>
-
+  <span className="text-sm text-gray-400 sm:text-right">
+    Expected Graduation: 2027
+  </span>
 </div>
 
 <p className="text-cyan-400 mb-3">
@@ -480,16 +478,14 @@ Pursuing a Bachelor's degree in Computer Information Systems with a focus on sof
 
 <div className={`${card} p-6`}>
 
-<div className="flex justify-between items-start">
+<div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
+  <h3 className="text-xl font-semibold">
+    Associate Degree
+  </h3>
 
-<h3 className="text-xl font-semibold">
-Associate Degree
-</h3>
-
-<span className="text-sm text-gray-400">
-2016 – 2022
-</span>
-
+  <span className="text-sm text-gray-400 sm:text-right">
+    2016-2022
+  </span>
 </div>
 
 <p className="text-cyan-400 mb-3">
@@ -521,16 +517,14 @@ transition={{ duration: 0.6 }}
 viewport={{ once: true }}
 >
 
-<div className="flex justify-between items-start">
+<div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
+  <h3 className="text-xl font-semibold">
+    Mobile Expert / Key Holder
+  </h3>
 
-<h3 className="text-xl font-semibold">
-Mobile Expert / Key Holder
-</h3>
-
-<span className="text-sm text-gray-400">
-2019 – Present
-</span>
-
+  <span className="text-sm text-gray-400 sm:text-right">
+    2019 – Present
+  </span>
 </div>
 
 <p className="text-cyan-400 mb-3">
@@ -560,16 +554,14 @@ transition={{ duration: 0.6 }}
 viewport={{ once: true }}
 >
 
-<div className="flex justify-between items-start">
+<div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
+  <h3 className="text-xl font-semibold">
+    Inventory Specialist
+  </h3>
 
-<h3 className="text-xl font-semibold">
-Inventory Specialist
-</h3>
-
-<span className="text-sm text-gray-400">
-2018 – 2020
-</span>
-
+  <span className="text-sm text-gray-400 sm:text-right">
+    2018-2020
+  </span>
 </div>
 
 <p className="text-cyan-400 mb-3">
