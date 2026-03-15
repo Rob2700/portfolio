@@ -23,6 +23,7 @@ import { FiMail } from "react-icons/fi";
 import { FaGithub, FaTiktok } from "react-icons/fa";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import { TypeAnimation } from "react-type-animation";
 
 
 function App() { 
@@ -99,10 +100,22 @@ onClick={() => setMenuOpen(!menuOpen)}
       className="relative z-10 flex flex-col items-start max-w-4xl"
     >
 
-      <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-700 bg-slate-800/60 backdrop-blur text-cyan-400 text-sm font-medium">
+       <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-700 bg-slate-800/60 backdrop-blur text-cyan-500 text-sm font-medium">
         <span>&gt;_</span>
-        Hello, World!
-      </div>
+       <TypeAnimation
+      sequence={[
+        "Hello World!",
+        2000,
+        "Welcome To My Portfolio.",
+        2000
+      ]}
+      wrapper="span"
+      speed={50}
+      repeat={Infinity}
+      className="text-cyan-300 font mono"
+      />
+
+      </div> 
 
       <h1 className="text-5xl md:text-[90px] font-bold mb-6 leading-[1.05]">
         I'm <span className="text-cyan-400">Robert Arroyo</span>
@@ -493,7 +506,7 @@ San Jacinto Community College
 </p>
 
 <p className="text-gray-400">
-Completed an associate degree before transferring to the University of Houston–Clear Lake to pursue a Bavhelor's in Computer Information Systems.
+Completed an associate degree before transferring to the University of Houston–Clear Lake to pursue a Bachelor's in Computer Information Systems.
 </p>
 
 </div>
