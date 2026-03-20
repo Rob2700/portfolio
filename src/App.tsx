@@ -16,7 +16,7 @@ import {
 
 } from "react-icons/si"; 
 
-import { FaJava, FaGitAlt } from "react-icons/fa"; 
+import { FaJava, FaGitAlt, FaLinkedin } from "react-icons/fa"; 
 import { VscVscode } from "react-icons/vsc"; 
 import { FiCode, FiCpu } from "react-icons/fi"; 
 import { FiMail } from "react-icons/fi";
@@ -169,10 +169,8 @@ onClick={() => setMenuOpen(!menuOpen)}
       <div>
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 leading-relaxed">
          I am a Computer Information Systems student with a strong interest in software development, IT systems, and mobile applications.
-
-I have hands-on experience building applications using Swift and working with languages like C++ and Java. I enjoy solving technical problems, learning new technologies, and building projects that have practical, real-world use.
-
-Currently, I work in a technical support role at T-Mobile, where I assist customers with device troubleshooting and software issues—strengthening both my technical and problem-solving skills.
+         I have hands-on experience building applications using Swift and working with languages like C++ and Java. I enjoy solving technical problems, learning new technologies, and building projects that have practical, real-world use.
+         Currently, I work in a technical support role at T-Mobile, where I assist customers with device troubleshooting and software issues—strengthening both my technical and problem-solving skills.
         </p>
 
         <div className="grid grid-cols-2 gap-6">
@@ -689,6 +687,31 @@ Contact Info
 
 <div className="space-y-6">
 
+{/* LINKEDIN */}
+
+<motion.div
+className="flex items-center gap-4"
+initial={{ opacity: 0, x: -20 }}
+whileInView={{ opacity: 1, x: 0 }}
+transition={{ duration: 0.5, delay: 0.1 }}
+viewport={{ once: true }}
+>
+
+<div className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center text-cyan-400">
+<FaLinkedin />
+</div>
+
+<div className="text-left">
+<p className="text-sm text-gray-400">LinkedIn</p>
+<a
+href="https://www.linkedin.com/in/roberto-arroyo-baa7193b8/"
+className="hover:text-cyan-400 transition"
+>
+Roberto Arroyo
+</a>
+</div>
+
+</motion.div>
 
 {/* EMAIL */}
 
@@ -743,7 +766,6 @@ github.com/Rob2700
 
 </motion.div>
 
-
 {/* TIKTOK */}
 
 <motion.div
@@ -792,6 +814,13 @@ Robert Arroyo<span className="text-cyan-400">.</span>
 </div>
 
 <div className="flex gap-6 text-lg">
+
+<a
+href="https://www.linkedin.com/in/roberto-arroyo-baa7193b8/"
+className="hover:text-cyan-400 transition"
+>
+<FaLinkedin />
+</a>
 
 <a
 href="https://github.com/Rob2700"
