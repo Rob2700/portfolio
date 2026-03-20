@@ -122,13 +122,12 @@ onClick={() => setMenuOpen(!menuOpen)}
       </h1>
 
       <h2 className="text-2xl md:text-3xl font-semibold text-gray-300 mb-6">
-        Computer Science Student & Software Developer
+        Computer Information Systems Student & Software Developer
       </h2>
 
       <p className="text-lg md:text-xl text-gray-400 max-w-xl mb-10 leading-relaxed">
-        I enjoy building software, experimenting with technology,
-        and creating content. Constantly learning and pushing
-        the boundaries of what I can create.
+       I build software and explore technology with a focus on real-world problem solving.
+       Experienced in C++, Swift, and IT systems, with hands-on projects in app development and system design.
       </p>
 
       <div className="flex flex-wrap gap-4">
@@ -169,8 +168,11 @@ onClick={() => setMenuOpen(!menuOpen)}
 
       <div>
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 leading-relaxed">
-          I am a junior computer science student deeply interested in software development,
-          iOS development, and the ever-evolving world of technology.
+         I am a Computer Information Systems student with a strong interest in software development, IT systems, and mobile applications.
+
+I have hands-on experience building applications using Swift and working with languages like C++ and Java. I enjoy solving technical problems, learning new technologies, and building projects that have practical, real-world use.
+
+Currently, I work in a technical support role at T-Mobile, where I assist customers with device troubleshooting and software issues—strengthening both my technical and problem-solving skills.
         </p>
 
         <div className="grid grid-cols-2 gap-6">
@@ -545,7 +547,7 @@ T-Mobile
 </p>
 
 <p className="text-gray-400">
-Assited customers with mobile device troubleshooting, software issues and technical support while helping manage daily store operations and team responsibilities.
+Provided technical support and troubleshooting for mobile devices, resolving software and connectivity issues. Assisted customers with device setup, system navigation, and performance optimization while contributing to daily store operations and team leadership responsibilities.
 </p>
 
 </motion.div>
