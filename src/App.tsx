@@ -342,9 +342,10 @@ staggerChildren: 0.15
 {[
 {
 img:"budgetapp.png",
-title:"Budget Tracker App",
-desc:"A budgeting app built with Swift that helps users track expenses, manage deposits and deductions, and maintain better control over their personal finances.",
-tech:["Swift","iOS","CoreData"]
+title:"Expense Tracker",
+desc:"Interactive expense tracking dashboard featuring CRUD operations, category filtering, monthly analytics, and real-time data visualizations using Streamlit and SQLite.",
+tech:["Python","Streamlit","SQLite","Pandas"],
+demo:"https://github.com/Rob2700/expense-tracker"
 },
 {
 img:"flacapp.png",
@@ -354,10 +355,10 @@ tech:["Swift","iOS","Audio"]
 },
 {
 img:"mariohack.jpg",
-title:"Super Mario 64 Horror ROM Hack",
-desc:"Custom horror-themed modification of Super Mario 64 that redesigns environments and gameplay elements to create a darker and more suspenseful experience.",
-tech:["C","Assembly","Game Modding"],
-demo:"https://www.tiktok.com/@irob_27/video/7581801434375621918?is_from_webapp=1&sender_device=pc&web_id=7616207936117573150"
+title:"Game of Life Simulator",
+desc:"A C++/Qt desktop simulation of Conway's Game of Life featuring an interactive grid, generation controls, speed adjustment and save/reset functionality. Built as a collaborative class project.",
+tech:["C++","Qt CMake","App"],
+demo:"https://github.com/Rob2700/game-of-life-qt"
 },
 {
 img:"currentprojects.jpeg",
@@ -407,9 +408,11 @@ target="_blank"
 rel="noopener noreferrer"
 className="text-sm text-cyan-400 hover:text-cyan-300 font-medium"
 >
-Watch Demo →
+GitHub →
 </a>
 )}
+
+
 
 </div>
 
